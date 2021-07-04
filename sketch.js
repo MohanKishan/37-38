@@ -73,6 +73,7 @@ function setup() {
 
 function draw() {
   background(180);
+ camera.position.x=trex.x
   //displaying score
   text("Score: "+ score, 500,50);
   
